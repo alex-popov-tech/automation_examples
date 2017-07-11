@@ -40,6 +40,21 @@ will be improving quality of your QA right away.
 Minus is that such tests have hardly reusable code, and not very nice reporter, so it can be not very good decision
 for long-term automation project.
 
+## Test example
+
+```
+    open("http://google.com/ncr");
+
+    $("#lst-ib").setValue("Selenium automates browsers").pressEnter();
+
+    $$(".g .r").filter(visible).shouldHaveSize(10)
+            .first().shouldHave(text("Selenium - Web Browser Automation"))
+            .find("a")
+            .click();
+
+    Wait().until(urlToBe("http://www.seleniumhq.org/"));
+```
+
 ## Components
 
 * [Selenide](http://selenide.org/index.html)
