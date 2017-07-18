@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: todomvc.tests.TasksOperationsAtAllFilterTest
--------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.62 sec - in todomvc.tests.TasksOperationsAtAllFilterTest
