@@ -1,0 +1,104 @@
+{
+  "uid" : "b327a17765d648e4",
+  "name" : "editConfirmByClickOutside",
+  "title" : "Edit confirm by click outside",
+  "time" : {
+    "start" : 1500389327181,
+    "stop" : 1500389328980,
+    "duration" : 1799
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "21cc60b789cd6add",
+    "name" : "todomvc.tests.TasksOperationsAtCompleteFilterTest",
+    "title" : "Tasks operations at complete filter test"
+  },
+  "steps" : [ {
+    "name" : "editByClickOuside[2, edited2]",
+    "title" : "Edit by click ouside [2, edited2]",
+    "time" : {
+      "start" : 1500389327496,
+      "stop" : 1500389328137,
+      "duration" : 641
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBe[[1, edited2]]",
+    "title" : "Should be [ [1, edited2]]",
+    "time" : {
+      "start" : 1500389328139,
+      "stop" : 1500389328488,
+      "duration" : 349
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "itemsLeftShouldBe[0]",
+    "title" : "Items left should be [0]",
+    "time" : {
+      "start" : 1500389328489,
+      "stop" : 1500389328521,
+      "duration" : 32
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Page-screenshot",
+    "source" : "f591460d-712d-4e96-8cab-87f63bf0eea4-attachment.png",
+    "type" : "image/png",
+    "size" : 141621,
+    "uid" : "bf37ef6af8b4c0ff"
+  }, {
+    "title" : "Page-source",
+    "source" : "80ff9aca-663a-4f87-b4ec-39e641fbe632-attachment.html",
+    "type" : "text/html",
+    "size" : 4549,
+    "uid" : "9154cc8523541fe4"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-KFCUN4U"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "todomvc.tests.TasksOperationsAtCompleteFilterTest"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "11788@DESKTOP-KFCUN4U.main(1)"
+  } ],
+  "parameters" : [ ]
+}

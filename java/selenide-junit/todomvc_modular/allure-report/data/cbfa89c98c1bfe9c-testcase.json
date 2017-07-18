@@ -1,0 +1,314 @@
+{
+  "uid" : "cbfa89c98c1bfe9c",
+  "name" : "basicTasksFlow",
+  "title" : "Basic tasks flow",
+  "time" : {
+    "start" : 1500389284099,
+    "stop" : 1500389296642,
+    "duration" : 12543
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 17
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "8fa91da0eed19700",
+    "name" : "todomvc.tests.TasksIntegrationFlowTest",
+    "title" : "Tasks integration flow test"
+  },
+  "steps" : [ {
+    "name" : "add[2]",
+    "title" : "Add [2]",
+    "time" : {
+      "start" : 1500389291299,
+      "stop" : 1500389291700,
+      "duration" : 401
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBe[[1, 2]]",
+    "title" : "Should be [ [1, 2]]",
+    "time" : {
+      "start" : 1500389291704,
+      "stop" : 1500389292140,
+      "duration" : 436
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "editByEnter[2, edited2]",
+    "title" : "Edit by enter [2, edited2]",
+    "time" : {
+      "start" : 1500389292143,
+      "stop" : 1500389292527,
+      "duration" : 384
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBe[[1, edited2]]",
+    "title" : "Should be [ [1, edited2]]",
+    "time" : {
+      "start" : 1500389292530,
+      "stop" : 1500389292881,
+      "duration" : 351
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "goActive",
+    "title" : "Go active",
+    "time" : {
+      "start" : 1500389292883,
+      "stop" : 1500389293061,
+      "duration" : 178
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBe[[edited2]]",
+    "title" : "Should be [ [edited2]]",
+    "time" : {
+      "start" : 1500389293063,
+      "stop" : 1500389293383,
+      "duration" : 320
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "cancelByEdit[edited2, notedited2]",
+    "title" : "Cancel by edit [edited2, notedited2]",
+    "time" : {
+      "start" : 1500389293385,
+      "stop" : 1500389293690,
+      "duration" : 305
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "toggle[edited2]",
+    "title" : "Toggle [edited2]",
+    "time" : {
+      "start" : 1500389293692,
+      "stop" : 1500389293855,
+      "duration" : 163
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBeEmpty",
+    "title" : "Should be empty",
+    "time" : {
+      "start" : 1500389293858,
+      "stop" : 1500389294171,
+      "duration" : 313
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "goCompleted",
+    "title" : "Go completed",
+    "time" : {
+      "start" : 1500389294174,
+      "stop" : 1500389294310,
+      "duration" : 136
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBe[[1, edited2]]",
+    "title" : "Should be [ [1, edited2]]",
+    "time" : {
+      "start" : 1500389294312,
+      "stop" : 1500389294634,
+      "duration" : 322
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "destroy[edited2]",
+    "title" : "Destroy [edited2]",
+    "time" : {
+      "start" : 1500389294636,
+      "stop" : 1500389294819,
+      "duration" : 183
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBe[[1]]",
+    "title" : "Should be [ [1]]",
+    "time" : {
+      "start" : 1500389294820,
+      "stop" : 1500389295117,
+      "duration" : 297
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "toggle[1]",
+    "title" : "Toggle [1]",
+    "time" : {
+      "start" : 1500389295119,
+      "stop" : 1500389295239,
+      "duration" : 120
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBeEmpty",
+    "title" : "Should be empty",
+    "time" : {
+      "start" : 1500389295240,
+      "stop" : 1500389295507,
+      "duration" : 267
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "goAll",
+    "title" : "Go all",
+    "time" : {
+      "start" : 1500389295511,
+      "stop" : 1500389295653,
+      "duration" : 142
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBe[[1]]",
+    "title" : "Should be [ [1]]",
+    "time" : {
+      "start" : 1500389295654,
+      "stop" : 1500389295952,
+      "duration" : 298
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Page-screenshot",
+    "source" : "11be2a6b-e8e2-4d0f-95fe-921482b7be34-attachment.png",
+    "type" : "image/png",
+    "size" : 129533,
+    "uid" : "984db3039257c7fd"
+  }, {
+    "title" : "Page-source",
+    "source" : "9abbba57-6ee1-416f-adac-8fd567fbbed4-attachment.html",
+    "type" : "text/html",
+    "size" : 4341,
+    "uid" : "ff7cb99fd9eba9b6"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "todomvc.tests.TasksIntegrationFlowTest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KFCUN4U"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "11788@DESKTOP-KFCUN4U.main(1)"
+  } ],
+  "parameters" : [ ]
+}

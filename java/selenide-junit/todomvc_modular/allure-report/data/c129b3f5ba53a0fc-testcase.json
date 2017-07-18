@@ -1,0 +1,104 @@
+{
+  "uid" : "c129b3f5ba53a0fc",
+  "name" : "clearCompleted",
+  "title" : "Clear completed",
+  "time" : {
+    "start" : 1500389320083,
+    "stop" : 1500389321550,
+    "duration" : 1467
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5e38597a9a7f080a",
+    "name" : "todomvc.tests.TasksOperationsAtAllFilterTest",
+    "title" : "Tasks operations at all filter test"
+  },
+  "steps" : [ {
+    "name" : "clearCompleted",
+    "title" : "Clear completed",
+    "time" : {
+      "start" : 1500389320439,
+      "stop" : 1500389320815,
+      "duration" : 376
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBe[[1]]",
+    "title" : "Should be [ [1]]",
+    "time" : {
+      "start" : 1500389320816,
+      "stop" : 1500389321128,
+      "duration" : 312
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "itemsLeftShouldBe[1]",
+    "title" : "Items left should be [1]",
+    "time" : {
+      "start" : 1500389321130,
+      "stop" : 1500389321163,
+      "duration" : 33
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Page-screenshot",
+    "source" : "2d741bd9-edbf-43cb-95b7-7e059371fa6d-attachment.png",
+    "type" : "image/png",
+    "size" : 129533,
+    "uid" : "a5eec88e36629730"
+  }, {
+    "title" : "Page-source",
+    "source" : "eb35feda-4bbc-45d3-ae96-76cfae29349d-attachment.html",
+    "type" : "text/html",
+    "size" : 4304,
+    "uid" : "18076468a84f4a7e"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "suite-name",
+    "value" : "todomvc.tests.TasksOperationsAtAllFilterTest"
+  }, {
+    "name" : "thread",
+    "value" : "11788@DESKTOP-KFCUN4U.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KFCUN4U"
+  } ],
+  "parameters" : [ ]
+}

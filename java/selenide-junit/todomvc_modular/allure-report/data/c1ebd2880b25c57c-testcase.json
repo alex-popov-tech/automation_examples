@@ -1,0 +1,119 @@
+{
+  "uid" : "c1ebd2880b25c57c",
+  "name" : "activateAll",
+  "title" : "Activate all",
+  "time" : {
+    "start" : 1500389310146,
+    "stop" : 1500389311687,
+    "duration" : 1541
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5e38597a9a7f080a",
+    "name" : "todomvc.tests.TasksOperationsAtAllFilterTest",
+    "title" : "Tasks operations at all filter test"
+  },
+  "steps" : [ {
+    "name" : "toggleAll",
+    "title" : "Toggle all",
+    "time" : {
+      "start" : 1500389310363,
+      "stop" : 1500389310695,
+      "duration" : 332
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "itemsLeftShouldBe[2]",
+    "title" : "Items left should be [2]",
+    "time" : {
+      "start" : 1500389310696,
+      "stop" : 1500389310733,
+      "duration" : 37
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "goActive",
+    "title" : "Go active",
+    "time" : {
+      "start" : 1500389310734,
+      "stop" : 1500389310901,
+      "duration" : 167
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBe[[1, 2]]",
+    "title" : "Should be [ [1, 2]]",
+    "time" : {
+      "start" : 1500389310902,
+      "stop" : 1500389311299,
+      "duration" : 397
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Page-screenshot",
+    "source" : "da7cf092-27fc-4bb4-9ea2-765d1ad378b6-attachment.png",
+    "type" : "image/png",
+    "size" : 136702,
+    "uid" : "96ea0159a0f2c938"
+  }, {
+    "title" : "Page-source",
+    "source" : "881e91d0-da02-44dd-89c9-6b11a1a3bad0-attachment.html",
+    "type" : "text/html",
+    "size" : 4547,
+    "uid" : "c07e0d9baa3ab799"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "todomvc.tests.TasksOperationsAtAllFilterTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KFCUN4U"
+  }, {
+    "name" : "thread",
+    "value" : "11788@DESKTOP-KFCUN4U.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  } ],
+  "parameters" : [ ]
+}

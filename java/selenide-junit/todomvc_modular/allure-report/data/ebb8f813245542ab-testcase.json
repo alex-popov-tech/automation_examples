@@ -1,0 +1,119 @@
+{
+  "uid" : "ebb8f813245542ab",
+  "name" : "complete",
+  "title" : "Complete",
+  "time" : {
+    "start" : 1500389311688,
+    "stop" : 1500389313353,
+    "duration" : 1665
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5e38597a9a7f080a",
+    "name" : "todomvc.tests.TasksOperationsAtAllFilterTest",
+    "title" : "Tasks operations at all filter test"
+  },
+  "steps" : [ {
+    "name" : "toggle[2]",
+    "title" : "Toggle [2]",
+    "time" : {
+      "start" : 1500389311911,
+      "stop" : 1500389312434,
+      "duration" : 523
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "itemsLeftShouldBe[1]",
+    "title" : "Items left should be [1]",
+    "time" : {
+      "start" : 1500389312436,
+      "stop" : 1500389312469,
+      "duration" : 33
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "goCompleted",
+    "title" : "Go completed",
+    "time" : {
+      "start" : 1500389312471,
+      "stop" : 1500389312643,
+      "duration" : 172
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBe[[2]]",
+    "title" : "Should be [ [2]]",
+    "time" : {
+      "start" : 1500389312645,
+      "stop" : 1500389312968,
+      "duration" : 323
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Page-screenshot",
+    "source" : "8cb0e358-eefe-4c7c-a9aa-f8b7328993c5-attachment.png",
+    "type" : "image/png",
+    "size" : 131172,
+    "uid" : "a5c558efdd4d8b25"
+  }, {
+    "title" : "Page-source",
+    "source" : "cc5efaa5-c7c8-4a82-96b4-fc49464a4d14-attachment.html",
+    "type" : "text/html",
+    "size" : 4531,
+    "uid" : "e3dbd0be44b91ec5"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "11788@DESKTOP-KFCUN4U.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KFCUN4U"
+  }, {
+    "name" : "suite-name",
+    "value" : "todomvc.tests.TasksOperationsAtAllFilterTest"
+  } ],
+  "parameters" : [ ]
+}

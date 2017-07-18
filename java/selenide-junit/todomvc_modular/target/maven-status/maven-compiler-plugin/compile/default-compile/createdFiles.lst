@@ -1,0 +1,13 @@
+todomvc\core\Helpers.class
+todomvc\given\GivenHelper$1.class
+todomvc\given\GivenHelper.class
+todomvc\given\GivenHelper$Builder.class
+todomvc\pages\Tasks.class
+todomvc\core\CustomConditions$1.class
+todomvc\core\AllurePublisher$Builder.class
+todomvc\core\CustomConditions.class
+todomvc\given\GivenHelper$Task.class
+todomvc\given\GivenHelper$TaskType.class
+todomvc\core\AllurePublisher$1.class
+todomvc\core\AllurePublisher.class
+todomvc\given\GivenHelper$Filter.class

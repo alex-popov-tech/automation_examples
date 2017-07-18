@@ -1,0 +1,134 @@
+{
+  "uid" : "96a362860bf3d120",
+  "name" : "completeAll",
+  "title" : "Complete all",
+  "time" : {
+    "start" : 1500389316500,
+    "stop" : 1500389318632,
+    "duration" : 2132
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "5e38597a9a7f080a",
+    "name" : "todomvc.tests.TasksOperationsAtAllFilterTest",
+    "title" : "Tasks operations at all filter test"
+  },
+  "steps" : [ {
+    "name" : "toggleAll",
+    "title" : "Toggle all",
+    "time" : {
+      "start" : 1500389316824,
+      "stop" : 1500389317207,
+      "duration" : 383
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBe[[1, 2, 3]]",
+    "title" : "Should be [ [1, 2, 3]]",
+    "time" : {
+      "start" : 1500389317208,
+      "stop" : 1500389317672,
+      "duration" : 464
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "itemsLeftShouldBe[0]",
+    "title" : "Items left should be [0]",
+    "time" : {
+      "start" : 1500389317673,
+      "stop" : 1500389317704,
+      "duration" : 31
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "goCompleted",
+    "title" : "Go completed",
+    "time" : {
+      "start" : 1500389317705,
+      "stop" : 1500389317886,
+      "duration" : 181
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBe[[1, 2, 3]]",
+    "title" : "Should be [ [1, 2, 3]]",
+    "time" : {
+      "start" : 1500389317888,
+      "stop" : 1500389318236,
+      "duration" : 348
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Page-screenshot",
+    "source" : "dda5d439-cc3c-4e5e-8bc5-902586a998b2-attachment.png",
+    "type" : "image/png",
+    "size" : 147625,
+    "uid" : "e4e049efc1109987"
+  }, {
+    "title" : "Page-source",
+    "source" : "cc1b0bd4-9a94-4150-ae7a-fe71599ffb45-attachment.html",
+    "type" : "text/html",
+    "size" : 4716,
+    "uid" : "a09e86d04120a6cc"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "11788@DESKTOP-KFCUN4U.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "todomvc.tests.TasksOperationsAtAllFilterTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KFCUN4U"
+  } ],
+  "parameters" : [ ]
+}

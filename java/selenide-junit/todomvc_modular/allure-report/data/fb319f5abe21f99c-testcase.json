@@ -1,0 +1,104 @@
+{
+  "uid" : "fb319f5abe21f99c",
+  "name" : "completeAll",
+  "title" : "Complete all",
+  "time" : {
+    "start" : 1500389299779,
+    "stop" : 1500389301237,
+    "duration" : 1458
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "b5cefb0e8bf30be7",
+    "name" : "todomvc.tests.TasksOperationsAtActiveFilterTest",
+    "title" : "Tasks operations at active filter test"
+  },
+  "steps" : [ {
+    "name" : "toggleAll",
+    "title" : "Toggle all",
+    "time" : {
+      "start" : 1500389300140,
+      "stop" : 1500389300498,
+      "duration" : 358
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBeEmpty",
+    "title" : "Should be empty",
+    "time" : {
+      "start" : 1500389300500,
+      "stop" : 1500389300809,
+      "duration" : 309
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "itemsLeftShouldBe[0]",
+    "title" : "Items left should be [0]",
+    "time" : {
+      "start" : 1500389300810,
+      "stop" : 1500389300850,
+      "duration" : 40
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Page-screenshot",
+    "source" : "a3c62809-fdff-4556-a100-a625e08e2928-attachment.png",
+    "type" : "image/png",
+    "size" : 123652,
+    "uid" : "341595908a15e915"
+  }, {
+    "title" : "Page-source",
+    "source" : "6da1c728-4494-4d30-9dbd-0780d6a4cb64-attachment.html",
+    "type" : "text/html",
+    "size" : 4532,
+    "uid" : "6ca3452859da1644"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "todomvc.tests.TasksOperationsAtActiveFilterTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-KFCUN4U"
+  }, {
+    "name" : "thread",
+    "value" : "11788@DESKTOP-KFCUN4U.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,89 @@
+{
+  "uid" : "f432172799feeaa6",
+  "name" : "clearCompleted",
+  "title" : "Clear completed",
+  "time" : {
+    "start" : 1500389330453,
+    "stop" : 1500389331722,
+    "duration" : 1269
+  },
+  "summary" : {
+    "attachments" : 2,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "21cc60b789cd6add",
+    "name" : "todomvc.tests.TasksOperationsAtCompleteFilterTest",
+    "title" : "Tasks operations at complete filter test"
+  },
+  "steps" : [ {
+    "name" : "clearCompleted",
+    "title" : "Clear completed",
+    "time" : {
+      "start" : 1500389330727,
+      "stop" : 1500389331097,
+      "duration" : 370
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "shouldBeEmpty",
+    "title" : "Should be empty",
+    "time" : {
+      "start" : 1500389331099,
+      "stop" : 1500389331339,
+      "duration" : 240
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ {
+    "title" : "Page-screenshot",
+    "source" : "3c193f59-bd64-4c41-8e50-72ce94abbc0a-attachment.png",
+    "type" : "image/png",
+    "size" : 116888,
+    "uid" : "50d5b34f95176aab"
+  }, {
+    "title" : "Page-source",
+    "source" : "da999130-799c-41c2-9f73-ad038731389a-attachment.html",
+    "type" : "text/html",
+    "size" : 4146,
+    "uid" : "d5a0d56d96d80c7b"
+  } ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-KFCUN4U"
+  }, {
+    "name" : "thread",
+    "value" : "11788@DESKTOP-KFCUN4U.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "todomvc.tests.TasksOperationsAtCompleteFilterTest"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  } ],
+  "parameters" : [ ]
+}

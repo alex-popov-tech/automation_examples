@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1500389308549" stop="1500389333578" version="1.4.22" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>todomvc.tests.TasksOperationsAtAllFilterTest</name>
+    <test-cases>
+        <test-case start="1500389308550" stop="1500389310145" status="passed">
+            <name>activate</name>
+            <steps>
+                <step start="1500389308844" stop="1500389309223" status="passed">
+                    <name>toggle[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389309225" stop="1500389309261" status="passed">
+                    <name>itemsLeftShouldBe[1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389309262" stop="1500389309432" status="passed">
+                    <name>goActive</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389309434" stop="1500389309762" status="passed">
+                    <name>shouldBe[[2]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Page-screenshot" source="7bc63f15-3986-46b3-8439-966e2f422395-attachment.png" type="image/png"/>
+                <attachment title="Page-source" source="bd634ab2-6fe6-4f49-bddc-cc2a64ccc3e1-attachment.html" type="text/html"/>
+            </attachments>
+            <labels>
+                <label name="host" value="DESKTOP-KFCUN4U"/>
+                <label name="thread" value="11788@DESKTOP-KFCUN4U.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500389310146" stop="1500389311687" status="passed">
+            <name>activateAll</name>
+            <steps>
+                <step start="1500389310363" stop="1500389310695" status="passed">
+                    <name>toggleAll</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389310696" stop="1500389310733" status="passed">
+                    <name>itemsLeftShouldBe[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389310734" stop="1500389310901" status="passed">
+                    <name>goActive</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389310902" stop="1500389311299" status="passed">
+                    <name>shouldBe[[1, 2]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Page-screenshot" source="da7cf092-27fc-4bb4-9ea2-765d1ad378b6-attachment.png" type="image/png"/>
+                <attachment title="Page-source" source="881e91d0-da02-44dd-89c9-6b11a1a3bad0-attachment.html" type="text/html"/>
+            </attachments>
+            <labels>
+                <label name="host" value="DESKTOP-KFCUN4U"/>
+                <label name="thread" value="11788@DESKTOP-KFCUN4U.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500389311688" stop="1500389313353" status="passed">
+            <name>complete</name>
+            <steps>
+                <step start="1500389311911" stop="1500389312434" status="passed">
+                    <name>toggle[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389312436" stop="1500389312469" status="passed">
+                    <name>itemsLeftShouldBe[1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389312471" stop="1500389312643" status="passed">
+                    <name>goCompleted</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389312645" stop="1500389312968" status="passed">
+                    <name>shouldBe[[2]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Page-screenshot" source="8cb0e358-eefe-4c7c-a9aa-f8b7328993c5-attachment.png" type="image/png"/>
+                <attachment title="Page-source" source="cc5efaa5-c7c8-4a82-96b4-fc49464a4d14-attachment.html" type="text/html"/>
+            </attachments>
+            <labels>
+                <label name="host" value="DESKTOP-KFCUN4U"/>
+                <label name="thread" value="11788@DESKTOP-KFCUN4U.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500389313355" stop="1500389314797" status="passed">
+            <name>editCancelByEsc</name>
+            <steps>
+                <step start="1500389313594" stop="1500389314138" status="passed">
+                    <name>cancelByEdit[1, notdited1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389314140" stop="1500389314429" status="passed">
+                    <name>shouldBe[[1]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389314430" stop="1500389314465" status="passed">
+                    <name>itemsLeftShouldBe[1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Page-screenshot" source="3f7f881e-0cf7-4be5-83b3-e3bf55885eee-attachment.png" type="image/png"/>
+                <attachment title="Page-source" source="66eecc8f-1db2-4f0c-8689-11892c957120-attachment.html" type="text/html"/>
+            </attachments>
+            <labels>
+                <label name="host" value="DESKTOP-KFCUN4U"/>
+                <label name="thread" value="11788@DESKTOP-KFCUN4U.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500389314799" stop="1500389316498" status="passed">
+            <name>editConfirmByClickOutside</name>
+            <steps>
+                <step start="1500389315093" stop="1500389315696" status="passed">
+                    <name>editByClickOuside[1, 2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389315698" stop="1500389316038" status="passed">
+                    <name>shouldBe[[2, 2]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389316039" stop="1500389316072" status="passed">
+                    <name>itemsLeftShouldBe[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Page-screenshot" source="e2be423d-075d-4ee4-aff6-9a51bb26b158-attachment.png" type="image/png"/>
+                <attachment title="Page-source" source="56b88497-8e03-4d7f-b03d-f4d055ad56ec-attachment.html" type="text/html"/>
+            </attachments>
+            <labels>
+                <label name="host" value="DESKTOP-KFCUN4U"/>
+                <label name="thread" value="11788@DESKTOP-KFCUN4U.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500389316500" stop="1500389318632" status="passed">
+            <name>completeAll</name>
+            <steps>
+                <step start="1500389316824" stop="1500389317207" status="passed">
+                    <name>toggleAll</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389317208" stop="1500389317672" status="passed">
+                    <name>shouldBe[[1, 2, 3]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389317673" stop="1500389317704" status="passed">
+                    <name>itemsLeftShouldBe[0]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389317705" stop="1500389317886" status="passed">
+                    <name>goCompleted</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389317888" stop="1500389318236" status="passed">
+                    <name>shouldBe[[1, 2, 3]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Page-screenshot" source="dda5d439-cc3c-4e5e-8bc5-902586a998b2-attachment.png" type="image/png"/>
+                <attachment title="Page-source" source="cc1b0bd4-9a94-4150-ae7a-fe71599ffb45-attachment.html" type="text/html"/>
+            </attachments>
+            <labels>
+                <label name="host" value="DESKTOP-KFCUN4U"/>
+                <label name="thread" value="11788@DESKTOP-KFCUN4U.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500389318633" stop="1500389320082" status="passed">
+            <name>editConfirmByTab</name>
+            <steps>
+                <step start="1500389318857" stop="1500389319395" status="passed">
+                    <name>editByTab[1, edited1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389319396" stop="1500389319660" status="passed">
+                    <name>shouldBe[[edited1]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389319661" stop="1500389319695" status="passed">
+                    <name>itemsLeftShouldBe[0]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Page-screenshot" source="2affb425-519a-4a7e-9688-81649708e403-attachment.png" type="image/png"/>
+                <attachment title="Page-source" source="1e4cc934-be32-4c13-9a14-3e860d782e1c-attachment.html" type="text/html"/>
+            </attachments>
+            <labels>
+                <label name="host" value="DESKTOP-KFCUN4U"/>
+                <label name="thread" value="11788@DESKTOP-KFCUN4U.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500389320083" stop="1500389321550" status="passed">
+            <name>clearCompleted</name>
+            <steps>
+                <step start="1500389320439" stop="1500389320815" status="passed">
+                    <name>clearCompleted</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389320816" stop="1500389321128" status="passed">
+                    <name>shouldBe[[1]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389321130" stop="1500389321163" status="passed">
+                    <name>itemsLeftShouldBe[1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Page-screenshot" source="2d741bd9-edbf-43cb-95b7-7e059371fa6d-attachment.png" type="image/png"/>
+                <attachment title="Page-source" source="eb35feda-4bbc-45d3-ae96-76cfae29349d-attachment.html" type="text/html"/>
+            </attachments>
+            <labels>
+                <label name="host" value="DESKTOP-KFCUN4U"/>
+                <label name="thread" value="11788@DESKTOP-KFCUN4U.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500389321551" stop="1500389322930" status="passed">
+            <name>destroy</name>
+            <steps>
+                <step start="1500389321818" stop="1500389322189" status="passed">
+                    <name>destroy[2]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389322190" stop="1500389322490" status="passed">
+                    <name>shouldBe[[1]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389322491" stop="1500389322542" status="passed">
+                    <name>itemsLeftShouldBe[0]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Page-screenshot" source="727870c5-a1f5-4673-b47b-52c6b7a4ccd0-attachment.png" type="image/png"/>
+                <attachment title="Page-source" source="86d1c973-1a5a-413a-a1a4-38e9d789958f-attachment.html" type="text/html"/>
+            </attachments>
+            <labels>
+                <label name="host" value="DESKTOP-KFCUN4U"/>
+                <label name="thread" value="11788@DESKTOP-KFCUN4U.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1500389322931" stop="1500389324203" status="passed">
+            <name>navigateToCompleteFilter</name>
+            <steps>
+                <step start="1500389323230" stop="1500389323439" status="passed">
+                    <name>goCompleted</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389323440" stop="1500389323792" status="passed">
+                    <name>shouldBe[[2]]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1500389323793" stop="1500389323827" status="passed">
+                    <name>itemsLeftShouldBe[1]</name>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title="Page-screenshot" source="924b7e96-7501-4691-bb46-9378d47515ab-attachment.png" type="image/png"/>
+                <attachment title="Page-source" source="e85d5cc9-0689-445e-b6fe-f3c62a4d56c3-attachment.html" type="text/html"/>
+            </attachments>
+            <labels>
+                <label name="host" value="DESKTOP-KFCUN4U"/>
+                <label name="thread" value="11788@DESKTOP-KFCUN4U.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

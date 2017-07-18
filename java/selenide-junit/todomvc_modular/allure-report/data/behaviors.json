@@ -1,0 +1,301 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 25,
+      "passed" : 25,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "e7405735b35a65b4",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 25,
+        "passed" : 25,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "8a69e76a23429d76",
+        "name" : "activateAll",
+        "title" : "Activate all",
+        "time" : {
+          "start" : 1500389324206,
+          "stop" : 1500389325547,
+          "duration" : 1341
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "18a8733129facffe",
+        "name" : "editCancelByEsc",
+        "title" : "Edit cancel by esc",
+        "time" : {
+          "start" : 1500389325549,
+          "stop" : 1500389327180,
+          "duration" : 1631
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b327a17765d648e4",
+        "name" : "editConfirmByClickOutside",
+        "title" : "Edit confirm by click outside",
+        "time" : {
+          "start" : 1500389327181,
+          "stop" : 1500389328980,
+          "duration" : 1799
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d8b929ee2b575ff5",
+        "name" : "completeAll",
+        "title" : "Complete all",
+        "time" : {
+          "start" : 1500389328982,
+          "stop" : 1500389330452,
+          "duration" : 1470
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "f432172799feeaa6",
+        "name" : "clearCompleted",
+        "title" : "Clear completed",
+        "time" : {
+          "start" : 1500389330453,
+          "stop" : 1500389331722,
+          "duration" : 1269
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7f451128e495e9a0",
+        "name" : "editConfirmByEnter",
+        "title" : "Edit confirm by enter",
+        "time" : {
+          "start" : 1500389331724,
+          "stop" : 1500389333258,
+          "duration" : 1534
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "cbfa89c98c1bfe9c",
+        "name" : "basicTasksFlow",
+        "title" : "Basic tasks flow",
+        "time" : {
+          "start" : 1500389284099,
+          "stop" : 1500389296642,
+          "duration" : 12543
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ed4b26d97bd7538c",
+        "name" : "editConfirmedByEnter",
+        "title" : "Edit confirmed by enter",
+        "time" : {
+          "start" : 1500389296651,
+          "stop" : 1500389298431,
+          "duration" : 1780
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "af76d17d541eafb1",
+        "name" : "add",
+        "title" : "Add",
+        "time" : {
+          "start" : 1500389298432,
+          "stop" : 1500389299777,
+          "duration" : 1345
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fb319f5abe21f99c",
+        "name" : "completeAll",
+        "title" : "Complete all",
+        "time" : {
+          "start" : 1500389299779,
+          "stop" : 1500389301237,
+          "duration" : 1458
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8a75efa33a5b9f27",
+        "name" : "clearCompleted",
+        "title" : "Clear completed",
+        "time" : {
+          "start" : 1500389301238,
+          "stop" : 1500389302820,
+          "duration" : 1582
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "279f73ece6b15bd0",
+        "name" : "destroy",
+        "title" : "Destroy",
+        "time" : {
+          "start" : 1500389302822,
+          "stop" : 1500389304111,
+          "duration" : 1289
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7b5e05f36c162f60",
+        "name" : "deleteByEditToEmpty",
+        "title" : "Delete by edit to empty",
+        "time" : {
+          "start" : 1500389304112,
+          "stop" : 1500389305626,
+          "duration" : 1514
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "69e3c14b08847da8",
+        "name" : "editConfirmClickOutside",
+        "title" : "Edit confirm click outside",
+        "time" : {
+          "start" : 1500389305627,
+          "stop" : 1500389307228,
+          "duration" : 1601
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e35e7ff50a8fe51a",
+        "name" : "navigateToAllFilter",
+        "title" : "Navigate to all filter",
+        "time" : {
+          "start" : 1500389307229,
+          "stop" : 1500389308546,
+          "duration" : 1317
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "45f4c34639de0b63",
+        "name" : "activate",
+        "title" : "Activate",
+        "time" : {
+          "start" : 1500389308550,
+          "stop" : 1500389310145,
+          "duration" : 1595
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c1ebd2880b25c57c",
+        "name" : "activateAll",
+        "title" : "Activate all",
+        "time" : {
+          "start" : 1500389310146,
+          "stop" : 1500389311687,
+          "duration" : 1541
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ebb8f813245542ab",
+        "name" : "complete",
+        "title" : "Complete",
+        "time" : {
+          "start" : 1500389311688,
+          "stop" : 1500389313353,
+          "duration" : 1665
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8e9271e0ef927bdb",
+        "name" : "editCancelByEsc",
+        "title" : "Edit cancel by esc",
+        "time" : {
+          "start" : 1500389313355,
+          "stop" : 1500389314797,
+          "duration" : 1442
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "559fbfe75d3ed9c3",
+        "name" : "editConfirmByClickOutside",
+        "title" : "Edit confirm by click outside",
+        "time" : {
+          "start" : 1500389314799,
+          "stop" : 1500389316498,
+          "duration" : 1699
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "96a362860bf3d120",
+        "name" : "completeAll",
+        "title" : "Complete all",
+        "time" : {
+          "start" : 1500389316500,
+          "stop" : 1500389318632,
+          "duration" : 2132
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a5bb1616a01e1dd5",
+        "name" : "editConfirmByTab",
+        "title" : "Edit confirm by tab",
+        "time" : {
+          "start" : 1500389318633,
+          "stop" : 1500389320082,
+          "duration" : 1449
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c129b3f5ba53a0fc",
+        "name" : "clearCompleted",
+        "title" : "Clear completed",
+        "time" : {
+          "start" : 1500389320083,
+          "stop" : 1500389321550,
+          "duration" : 1467
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "89c72e6719349ad6",
+        "name" : "destroy",
+        "title" : "Destroy",
+        "time" : {
+          "start" : 1500389321551,
+          "stop" : 1500389322930,
+          "duration" : 1379
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b05bd3249a54f576",
+        "name" : "navigateToCompleteFilter",
+        "title" : "Navigate to complete filter",
+        "time" : {
+          "start" : 1500389322931,
+          "stop" : 1500389324203,
+          "duration" : 1272
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}
